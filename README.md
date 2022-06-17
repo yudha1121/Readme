@@ -65,7 +65,7 @@ robot test/[Name Files]
 robot -i [Tag Name] test
 ```
 ![N|Solid](https://github.com/yudha1121/Readme/blob/main/SS%20Documentation/tag.png)
-> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout test`. This command include `ecp` and `dashboard` tag, you can find more when you read the files inside `test` folder one by one.
+> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout test`. There is more tag include `ecp` and `dashboard` tag, you can find more when you read the files inside `test` folder one by one.
 
 ## Project Structure
 - ### Overview
