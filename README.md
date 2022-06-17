@@ -82,7 +82,7 @@ robot -i [Tag Name] test
 - Folder `test` is contain **Test Case** which is use for testing the behavior of web application.
 
 ## Log & Report
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/reports.png) <br>
+<img src="https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/report.png" width="600" height="500"><br>
 After running test, you can see the result through `Log.html` AND `Report.html` files, you can find both of files inside `Project Folder` where you clone it.
 
 #### Test Result
@@ -90,7 +90,7 @@ After running test, you can see the result through `Log.html` AND `Report.html` 
  - **PASS** : All test that get **PASS** result means the test that have been run is expected output
  
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/fail.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/failed.png)
  - **FAILED** : All test that get **FAILED** result means the test that have been run is unexpected output
 
 #### Tips
