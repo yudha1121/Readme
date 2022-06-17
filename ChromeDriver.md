@@ -18,12 +18,12 @@ To run this automation you need to install some dependencies as system requireme
 - Open `Google Chrome`.
 - ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/dots.png)<br> 
 Click `three dots` icon in Top-Right above.
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/settings.png)<br>
-- Click `Settings`.
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/list-abt.png)<br>
-- Click `About Chrome` in Bottom-Left.
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/abt.png)<br>
-- Now you can see your `Google Chrome` version.
+- ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/settings.png)<br>
+Click `Settings`.
+- ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/list-abt.png)<br>
+Click `About Chrome` in Bottom-Left.
+- ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/abt.png)<br>
+Now you can see your `Google Chrome` version.
 
 - ### Chrome Driver Download
 > Note : To download `Chrome Driver` you can choose as same or slightly different from your `Google Chrome` version.
