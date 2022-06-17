@@ -64,7 +64,8 @@ robot test/[Name Files]
 ```sh
 robot -i [Tag Name] test
 ```
-> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout test`. This command include `ecp` and `dashboard` tag, you can find more when you read the files one by one.
+![N|Solid](https://github.com/icube-mage/swift-checkout-v2-automation/blob/main/test/04_checkout_billing.robot)
+> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout test`. This command include `ecp` and `dashboard` tag, you can find more when you read the files inside `test` folder one by one.
 
 ## Project Structure
 - ### Overview
