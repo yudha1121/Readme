@@ -49,16 +49,16 @@ git checkout develop
 
 ## Project Structure
 - ### Overview
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/all.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/all.png)
 - Swift Checkout V2 Automation is created with Three main folders which name is `base`,`pages`,`resources`, and `test`. 
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/base.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/base.png)
 - Folder `base` and `pages` is contain **Keyword** which is use for **Test Case**. 
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/data.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/data.png)
 - Folder `resources`is contain **Variable** which is use for **Test Case** and **Form Operation**.
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/test.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/test.png)
 - Folder `test` is contain **Test Case** which is use for testing the behavior of web application.
 
 ## Running Project
@@ -75,17 +75,17 @@ robot test/[Name Files]
 > Note : `Name Files` means file name inside `test` folder, example : `01_ecp_shopping_cart.robot`
 
 ## Log & Report
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/reports.png) <br>
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/reports.png) <br>
 After running test, you can see the result through `Log.html` AND `Report.html` files, you can find both of files inside `Project Folder` where you clone it.
 
 #### Test Result
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/pass.png)<br>
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/pass.png)<br>
  - **PASS** : All test that get **PASS** result means the test that have been run is expected output
  
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/fail.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/fail.png)
  - **FAILED** : All test that get **FAILED** result means the test that have been run is unexpected output
 
 #### Tips
-![N|Solid](https://raw.githubusercontent.com/yudha1121ay/img_chatbot/main/SS%20Documentation/tips.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/tips.png)
 > Note : You can find `FAILED` part from the result through screenshot from the `Log.html` files.
