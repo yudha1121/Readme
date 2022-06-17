@@ -47,6 +47,25 @@ git clone https://github.com/icube-mage/swift-checkout-v2-automation.git
 git checkout develop
 ```
 
+## Running Project
+> Note : You can only running this project via `Command Line Application`.
+- Running all test
+```sh
+robot test
+```
+
+- Running specific test
+```sh
+robot test/[Name Files]
+```
+> Note : `Name Files` means file name inside `test` folder, example : `01_ecp_shopping_cart.robot`
+
+- Running specific tags
+```sh
+robot -i [Tag Name] test
+```
+> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout test`. This command include `ecp` and `dashboard` tag, you can find more when you read the files one by one.
+
 ## Project Structure
 - ### Overview
 ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/all.png)
@@ -60,19 +79,6 @@ git checkout develop
 
 ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/test.png)
 - Folder `test` is contain **Test Case** which is use for testing the behavior of web application.
-
-## Running Project
-> Note : You can only running this project via `Command Line Application`.
-- Running all test
-```sh
-robot test
-```
-
-- Running specific test
-```sh
-robot test/[Name Files]
-```
-> Note : `Name Files` means file name inside `test` folder, example : `01_ecp_shopping_cart.robot`
 
 ## Log & Report
 ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/reports.png) <br>
