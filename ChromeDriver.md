@@ -28,18 +28,24 @@ Now you can see your `Google Chrome` version. <br>
 ### Chrome Driver Download
 > Note : To download `Chrome Driver` you can choose as same or slightly different from your `Google Chrome` version.
 - Visit Chrome Driver [Official Page](https://chromedriver.chromium.org/downloads).
+&nbsp;<br>
+&nbsp;<br>
 - ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/compare.png)<br>
 Click on version that same or slightly different from your `Google Chrome` version.
-## \newline
+&nbsp;<br>
+&nbsp;<br>
 - ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/choose.png)<br>
 Choose one that can run on your Sistem Operation, and download it!
-## \newline
+&nbsp;<br>
+&nbsp;<br>
 - ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/extract.png)<br>
 Extract the file.
-## \newline
+&nbsp;<br>
+&nbsp;<br>
 - ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/loc.png)<br>
 Copy and paste it to `Scripts` folder inside `Python Location Installed`
-## \newline
+&nbsp;<br>
+&nbsp;<br>
 > ![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Chrome%20Driver/path.png)<br>
 > **Tips** : You can find `Python Location Installed` with run command `where python`.
 
