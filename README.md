@@ -1,4 +1,4 @@
-# Swift Checkout V2 Automation
+# Swift Automation
 
 ## Getting Started
 - ### Installing Dependencies
@@ -11,10 +11,10 @@ To run this automation you need to install some dependencies and module as syste
 | Python                    | [Download](https://www.python.org/downloads/)             |
 | VSCode IDE (`Optional`)   | [Download](https://code.visualstudio.com/download)        |
 | Git                       | [Download](https://git-scm.com/downloads)                 |
-|Google Chrome              | [Download](https://www.google.com/chrome/)                |
-|Chrome Driver              | [Download](https://chromedriver.chromium.org/downloads)   |
+| Google Chrome             | [Download](https://www.google.com/chrome/)                |
+| Chrome Driver             | [Download](https://chromedriver.chromium.org/downloads)   |
 
-> Note :  Please download `Chrome Driver` as same as your Google Chrome Version. You can check more guide for installing `Chrome Driver` through this [Link](https://chromedriver.chromium.org/downloads)
+> Note :  Please download `Chrome Driver` as same as your Google Chrome Version. You can check more guide for installing `Chrome Driver` through this [Link](https://github.com/icube-mage/swift-checkout-v2-automation/blob/538dc5f0037961c9ec420359db0ce259d74369d7/ChromDriver.md)
 
 - ### Installing Module (`Python Required!`)
 > Note :  To install this module you have to run this command via `Command Line Aplication` on your Sistem Operation
@@ -34,65 +34,85 @@ pip install robotframework
 pip install robotframework-seleniumlibrary
 ```
 
-- Faker Library for Robot Framework
-```sh
-pip install robotframework-faker
-```
-
 ## Clone Project
 > Note :  To clone this repository you have to run this command via `Command Line Aplication` and `Git` has been installed on your Sistem Operation. You can clone this project on your own folder or partition.
-- Clone Swift Checkout V2 Automation
+- Clone Swift Automation
 ```sh
-git clone https://github.com/icube-mage/swift-checkout-v2-automation.git
+git clone https://github.com/icube-mage/swift-automation-test.git
 git checkout develop
 ```
 
 ## Running Project
-> Note : You can only running this project via `Command Line Application`.
+
 - Running all test
+
+> SH File :
 ```sh
-robot test
+Open : `auto.sh` inside project folder.
 ```
 
-- Running specific test
+`OR`
+
+> Command Line :
 ```sh
-robot test/[Name Files]
+robot robot
 ```
-> Note : `Name Files` means file name inside `test` folder, example : `01_ecp_shopping_cart.robot`
+
+- Running daily test
+> Note : Daily test is useful for send daily report and usually this test is condition general of customer behavior
+
+> SH File :
+```sh
+Open : `daily.sh` inside project folder.
+```
+
+`OR`
+
+> Command Line :
+```sh
+robot -i daily robot
+```
 
 - Running specific tags
 ```sh
-robot -i [Tag Name] test
+robot -i [Tag Name] robot
 ```
 ![N|Solid](https://github.com/yudha1121/Readme/blob/main/SS%20Documentation/tag.png)
-> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout test`. There is more tag like `ecp` and `dashboard` tag, you can find more when you read the files inside `test` folder one by one.
+> Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout robot`. There is more tag like `daily` tag that can be useful to run specific test, you can find more when you read the files inside `robot` folder one by one.
+
+- Running specific test file
+```sh
+robot robot/[Name Files]
+```
+> Note : `Name Files` means file name inside `robot` folder, example : `01Register.robot`
+
 
 ## Project Structure
 - ### Overview
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/all.png)
-- Swift Checkout V2 Automation is created with Three main folders which name is `base`,`pages`,`resources`, and `test`. 
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/all.png)
+- Swift Automation is created with Two main folders which name is `resource`, and `robot`.
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/base.png)
-- Folder `base` and `pages` is contain **Keyword** which is use for **Test Case**. 
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/resources.png)
+- Folder `resource` is contain **Keyword, Locator, String, and Variable (TestData)** which is use for **Test Case**. 
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/data.png)
-- Folder `resources`is contain **Variable** which is use for **Test Case** and **Form Operation**.
-
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/test.png)
-- Folder `test` is contain **Test Case** which is use for testing the behavior of web application.
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/robot.png)
+- Folder `robot` is contain **Test Case** which is use for testing the behavior of web application.
 
 ## Log & Report
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/report.png)<br>
-After running test, you can see the result through `Log.html` AND `Report.html` files, you can find both of files inside `Project Folder` where you clone it.
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/result-sh.png)<br>
+After running test especially using `SH files` like `daily.sh` OR `auto.sh`, you can see the result through `Log.html` AND `Report.html` inside `result` folder, you can find it inside specific `time` folder when you run the test. Example : `22Jun2022-145111`
+
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/result-reg.png)<br>
+After running test throught `Command Line`, you can see the result through `Log.html` AND `Report.html` files, you can find both of files inside `Project Folder` where you clone it.
 
 ## Test Result
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/pass.png)<br>
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/pass.png)<br>
  - **PASS** : All test that get **PASS** result means the test that have been run is expected output
  
 
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/failed.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/fail.png)
  - **FAILED** : All test that get **FAILED** result means the test that have been run is unexpected output
 
 #### Tips
-![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20Documentation/tips.png)
+![N|Solid](https://raw.githubusercontent.com/yudha1121/Readme/main/SS%20QA%20Swift/tips.png)
 > Note : You can find `FAILED` part from the result through screenshot from the `Log.html` files.
