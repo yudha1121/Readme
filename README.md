@@ -44,7 +44,7 @@ git checkout develop
 
 ## Running Project
 
-- Running all test
+- `Running all test`
 
 > SH File :
 ```sh
@@ -58,8 +58,8 @@ Open : `auto.sh` inside project folder.
 robot robot
 ```
 
-- Running daily test
-> Note : Daily test is useful for send daily report and usually this test is condition general of customer behavior
+- `Running daily test`
+> Note : Daily test is useful for send daily report and usually this test is general condition of customer behavior
 
 > SH File :
 ```sh
@@ -73,14 +73,14 @@ Open : `daily.sh` inside project folder.
 robot -i daily robot
 ```
 
-- Running specific tags
+- `Running specific tags`
 ```sh
 robot -i [Tag Name] robot
 ```
 ![N|Solid](https://github.com/yudha1121/Readme/blob/main/SS%20Documentation/tag.png)
 > Note : `Tag Name` means all test case that have specific tag from all of test case, example : if you want to run only `checkout` case, you can just type command `robot -i checkout robot`. There is more tag like `daily` tag that can be useful to run specific test, you can find more when you read the files inside `robot` folder one by one.
 
-- Running specific test file
+- `Running specific test file`
 ```sh
 robot robot/[Name Files]
 ```
